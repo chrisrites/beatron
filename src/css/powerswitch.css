@@ -1,0 +1,19 @@
+#power-button-on,
+#power-button-off {
+  height: 34px;
+  width: 34px;
+  background-color: black;
+  vertical-align: middle;
+  border-style: solid;
+  border-width: 4px;
+  transition: border-color 0.5s;
+  margin-left: 24px;
+}
+
+#power-button-on {
+  border-color: #d2401d;
+}
+
+#power-button-off {
+  border-color: #303135;
+}

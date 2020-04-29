@@ -1,0 +1,14 @@
+.display-screen {
+  font-family: digital-7;
+  font-size: 20pt;
+  color: #d2401d;
+  background-color: black;
+  padding: 4px 4px 0px 9px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 165px;
+}
+
+#display {
+  display: inline-block;
+}

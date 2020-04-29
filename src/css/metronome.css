@@ -1,0 +1,19 @@
+.metronome-container {
+  text-align: center;
+}
+
+.metronome-buttons {
+  background-color: #406618;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px 8px 10px 4px;
+}
+
+.buttons {
+  /* color: #303135; */
+  color: black;
+  font-size: 34pt;
+}
+
+.tempo-display {
+  visibility: hidden;
+}

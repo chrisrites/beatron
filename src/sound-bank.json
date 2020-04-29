@@ -1,0 +1,126 @@
+[
+  [
+    {
+      "key": "R",
+      "sound": "/sounds/accoustic/tom-1.mp3",
+      "name": "Tom 1"
+    },
+    {
+      "key": "T",
+      "sound": "/sounds/accoustic/tom-1.mp3",
+      "name": "Tom 1"
+    },
+    {
+      "key": "Y",
+      "sound": "/sounds/accoustic/tom-2.mp3",
+      "name": "Tom 2"
+    },
+    {
+      "key": "U",
+      "sound": "/sounds/accoustic/tom-2.mp3",
+      "name": "Tom 2"
+    },
+    {
+      "key": "8",
+      "sound": "/sounds/accoustic/crash-1.mp3",
+      "name": "Crash 1"
+    },
+    {
+      "key": "D",
+      "sound": "/sounds/accoustic/snare-open.mp3",
+      "name": "Snare Open"
+    },
+    {
+      "key": "F",
+      "sound": "/sounds/accoustic/snare.mp3",
+      "name": "Snare"
+    },
+    {
+      "key": "G",
+      "sound": "/sounds/accoustic/snare.mp3",
+      "name": "Snare"
+    },
+    {
+      "key": "H",
+      "sound": "/sounds/accoustic/hi-hat-closed.mp3",
+      "name": "Hi-Hat Closed"
+    },
+    {
+      "key": "J",
+      "sound": "/sounds/accoustic/hi-hat-open.mp3",
+      "name": "Hi-Hat Open"
+    },
+    {
+      "key": "V",
+      "sound": "/sounds/accoustic/kick.mp3",
+      "name": "Kick"
+    },
+    {
+      "key": "B",
+      "sound": "/sounds/accoustic/kick.mp3",
+      "name": "Kick"
+    }
+  ],
+  [
+    {
+      "key": "R",
+      "sound": "/sounds/electric/tom-1.mp3",
+      "name": "Tom 1"
+    },
+    {
+      "key": "T",
+      "sound": "/sounds/electric/tom-1.mp3",
+      "name": "Tom 1"
+    },
+    {
+      "key": "Y",
+      "sound": "/sounds/electric/tom-2.mp3",
+      "name": "Tom 2"
+    },
+    {
+      "key": "U",
+      "sound": "/sounds/electric/tom-2.mp3",
+      "name": "Tom 2"
+    },
+    {
+      "key": "8",
+      "sound": "/sounds/accoustic/crash-1.mp3",
+      "name": "Crash 1"
+    },
+    {
+      "key": "D",
+      "sound": "/sounds/electric/clap-1.mp3",
+      "name": "Clap"
+    },
+    {
+      "key": "F",
+      "sound": "/sounds/electric/snare-2.mp3",
+      "name": "Snare"
+    },
+    {
+      "key": "G",
+      "sound": "/sounds/electric/snare-2.mp3",
+      "name": "Snare"
+    },
+    {
+      "key": "H",
+      "sound": "/sounds/electric/hi-hat-closed.mp3",
+      "name": "Hi-Hat Closed"
+    },
+    {
+      "key": "J",
+      "sound": "/sounds/electric/hi-hat-open.mp3",
+      "name": "Hi-Hat Open"
+    },
+    {
+      "key": "V",
+      "sound": "/sounds/electric/kick-1.mp3",
+      "name": "Kick 1"
+    },
+    {
+      "key": "B",
+      "sound": "/sounds/electric/kick-2.mp3",
+      "name": "Kick 2"
+    }
+  ]
+]

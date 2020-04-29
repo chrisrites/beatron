@@ -1,38 +1,297 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/wood.jpg");
+  margin: 0;
+}
+
+.container {
   text-align: center;
+  align-items: center;
+  z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bumpers {
+  position: relative;
+  /* display: inline-block; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: auto;
+  width: 640px;
+  /* background-color: white; */
+  /* border-radius: 8px; */
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  /* z-index: -2; */
+  /* margin-top: 5%; */
+  /* padding-top: 16px;
+  padding-bottom: 20px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bumper {
+  /* display: inline-block; */
+  height: 120px;
+  width: 120px;
+  border: 2px solid #303135;
+  border-radius: 10%;
+  background-color: #303135;
+  /* z-index: -1; */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.ridges-horizontal {
+  height: 8px;
+  width: 36.36px;
+  background-color: #406618;
+  /* z-index: -1; */
+  border-radius: 5%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.ridges-vertical {
+  height: 36.36px;
+  width: 8px;
+  background-color: #406618;
+  /* z-index: -1; */
+  border-radius: 5%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+#bumper-top-left {
+  /* display: inline-block; */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#bumper-top-right {
+  /* display: inline-block; */
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#bumper-bottom-right {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#bumper-bottom-left {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#ridge-top-1 {
+  position: absolute;
+  left: 156.36px;
+  top: 12px;
+}
+
+#ridge-top-2 {
+  position: absolute;
+  left: 229.08px;
+  top: 12px;
+}
+
+#ridge-top-3 {
+  position: absolute;
+  left: 301.80px;
+  top: 12px;
+}
+
+#ridge-top-4 {
+  position: absolute;
+  left: 374.52px;
+  top: 12px;
+}
+
+#ridge-top-5 {
+  position: absolute;
+  left: 447.24px;
+  top: 12px;
+}
+
+#ridge-right-1 {
+  position: absolute;
+  top: 156.36px;
+  right: 12px;
+}
+
+#ridge-right-2 {
+  position: absolute;
+  top: 229.08px;
+  right: 12px;
+}
+
+#ridge-right-3 {
+  position: absolute;
+  top: 301.80px;
+  right: 12px;
+}
+
+#ridge-right-4 {
+  position: absolute;
+  top: 374.52px;
+  right: 12px;
+}
+
+#ridge-right-5 {
+  position: absolute;
+  top: 447.24px;
+  right: 12px;
+}
+
+#ridge-bottom-1 {
+  position: absolute;
+  left: 156.36px;
+  bottom: 12px;
+}
+
+#ridge-bottom-2 {
+  position: absolute;
+  left: 229.08px;
+  bottom: 12px;
+}
+
+#ridge-bottom-3 {
+  position: absolute;
+  left: 301.80px;
+  bottom: 12px;
+}
+
+#ridge-bottom-4 {
+  position: absolute;
+  left: 374.52px;
+  bottom: 12px;
+}
+
+#ridge-bottom-5 {
+  position: absolute;
+  left: 447.24px;
+  bottom: 12px;
+}
+
+#ridge-left-1 {
+  position: absolute;
+  top: 156.36px;
+  left: 12px;
+}
+
+#ridge-left-2 {
+  position: absolute;
+  top: 229.08px;
+  left: 12px;
+}
+
+#ridge-left-3 {
+  position: absolute;
+  top: 301.80px;
+  left: 12px;
+}
+
+#ridge-left-4 {
+  position: absolute;
+  top: 374.52px;
+  left: 12px;
+}
+
+#ridge-left-5 {
+  position: absolute;
+  top: 447.24px;
+  left: 12px;
+}
+
+.drum-machine {
+  position: relative;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: auto;
+  width: 600px;
+  background-color: #406618;
+  border-radius: 8px;
+  margin: auto;
+  /* margin-top: 20px;
+  padding-top: 16px;
+  padding-bottom: 20px; */
+  z-index: 2;
 }
 
-.App-link {
-  color: #61dafb;
+#brand {
+  text-align: left;
+  padding-left: 87px;
+  padding-top: 10px;
+  /* padding-bottom: 8px; */
+  /* color: #41661a; */
+  /* color: #406618; */
+  color: #fff200;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  -webkit-text-stroke: 1px #303135;
+  /* /* color: black; */
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#power-col {
+  display: inline-block;
+  width: 30%;
+}
+
+#kit-switch-col {
+  display: inline-block;
+  text-align: left;
+  width: 70%;
+}
+
+#drum-pads-row {
+  /* border: 2px solid red; */
+}
+
+#drum-pads-col {
+  text-align: center;
+  /* border: 2px solid blue; */
+  width: 80%;
+  margin: auto 10% auto 10%;
+}
+
+.drum-pads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.drum-pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #303135;
+  border-radius: 4px;
+  margin: 8px;
+  background-color: #303135;
+  border-bottom-color: #d2401d;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 100px;
+  width: 100px;
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  color: black;
+}
+
+.drum-pad.active {
+  opacity: 0.6;
+  transform: scale(0.95);
+}
+
+#metronome {
+  padding-bottom: 10px;
 }
